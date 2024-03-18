@@ -1,0 +1,50 @@
+class GlobalConstants:#全局常量
+
+    SCREEN_SIZE = 650
+    TILE_SIZE = 50
+
+    NUM_OF_ACTIONS = 5
+
+    LEFT_ACTION = 0
+    RIGHT_ACTION = 1
+    UP_ACTION = 2
+    DOWN_ACTION = 3
+    FIRE_ACTION = 4
+
+    P1_LEFT_ACTION = 0
+    P1_RIGHT_ACTION = 1
+    P1_UP_ACTION = 2
+    P1_DOWN_ACTION = 3
+    P1_FIRE_ACTION = 4
+
+    P2_LEFT_ACTION = 0
+    P2_RIGHT_ACTION = 1
+    P2_UP_ACTION = 2
+    P2_DOWN_ACTION = 3
+    P2_FIRE_ACTION = 4
+    #对象
+    HARD_OBJECT = 0#打不穿的
+    BULLET_OBJECT = 1#子弹对象
+    SOFT_OBJECT = 2#打的穿的
+    TRANSPARENT_OBJECT = 3#透明对象
+    EXPLOSION_OBJECT = 4#爆炸对象
+
+    PLAYER_1_OWNER = 0
+    PLAYER_2_OWNER = 1
+    ENEMY_OWNER = 3
+    #速度
+    PLAYER_SPEED = 10
+    ENEMY_SPEED = 5
+    BULLET_SPEED = 20
+    FONT_SIZE = 18#字体大小
+    PLAYER_LOADING_TIME = 20
+    ENEMY_LOADING_TIME  = 90
+    #棋子
+    NUM_OF_TILES = 3
+    WALL_TILE = 0#墙体
+    ROCK_TILE = 1#石块
+    SEA_TILE = 2#海
+    # ...
+    #我方坦克自定义动作
+    MYTANK_ACTIONS=[2,2,2,0,0,0,3,3,3,1,1,1]
+    ENEMYTANK_ACTIONS=[3,3,3,3]
